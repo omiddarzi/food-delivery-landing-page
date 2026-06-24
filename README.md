@@ -1,3 +1,5 @@
+![GitHub top language](https://img.shields.io/github/languages/top/omiddarzi/food-delivery-landing-page?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/omiddarzi/food-delivery-landing-page?style=flat-square)
 # 🍔 Food Wagon - Delivery Landing Page
 
 A modern, responsive landing page for a food delivery service, built based on a professional Figma design.
