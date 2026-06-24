@@ -5,7 +5,7 @@
 A modern, responsive landing page for a food delivery service, built based on a professional Figma design.
 
 ## 🚀 Live Demo
-You can view the live website here: [Live Demo Link](https://omiddarzi.github.io/food-delivery-landing-page/)
+You can view the live website here: [Live Demo Link](https://hopetailor.github.io/food-delivery-landing-page/)
 
 ## ✨ Features
 - **Fully Responsive:** Optimized for desktop, tablet, and mobile screens.
@@ -22,4 +22,4 @@ You can view the live website here: [Live Demo Link](https://omiddarzi.github.io
 ![Project Preview](Assets/screenshot.png)
 
 ## ✍️ Author
-- **Omid Darzi** - [My GitHub Profile](https://github.com/omiddarzi)
+- **Omid Darzi** - [My GitHub Profile](https://github.com/HopeTailor)
