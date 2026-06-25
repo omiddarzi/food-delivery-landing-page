@@ -549,7 +549,7 @@ body {
     left: 0;
     bottom: 1.2rem;
     width: 0;
-    height: 3px; 
+    height: 2px; 
     background-color: #000000;
     opacity: 0;
     transition: all 0.5s ease;
@@ -560,7 +560,116 @@ body {
     opacity: 1;
 }
 
-/* Responsive */
+.g1 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0;
+  padding-bottom: 5rem;
+}
+
+.g2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.g3 {
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.g4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.g5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  color: #FFB30E;
+  font-size: 1.5rem;
+  white-space: nowrap;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+.g6 {
+  width: 1.5rem;
+}
+
+.g5::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2%;
+  width: 0;
+  height: 2px;
+  background-color: #FFB30E;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.g5:hover::after {
+    width: 100%;
+    opacity: 1;
+}
+
+.g7 {
+  height: 4rem;
+  border-radius: 100%;
+  background-color: #FFB30E;
+  color: white;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.g7:hover {
+  transform: scale(1.05);
+}
+
+.g8 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+
+.g9 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  gap: 1.5rem;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.g10 {
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+.g9:hover {
+  transform: scale(1.1);
+}
+
+.g11 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
 @media (max-width: 1024px) {
   .container {
     padding: 4rem 2rem 0;
@@ -619,6 +728,18 @@ body {
   }
 
   .f4 {
+    width: 30%;
+  }
+  
+  .g8 {
+    gap: 1rem;
+  }
+
+  .g7 {
+    display: none;
+  }
+
+  .g9 {
     width: 30%;
   }
 }
@@ -696,5 +817,28 @@ body {
   .f6 {
     font-size: 1rem;
     padding: 0.5rem 0.5rem;
+  }
+
+  .g3 {
+    font-size: 2rem;
+  }
+
+  .g2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .g5 {
+    font-size: 1.25rem;
+  }
+
+  .g8 {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .g9 {
+    width: 100%;
   }
 }
